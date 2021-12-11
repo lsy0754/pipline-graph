@@ -1,0 +1,81 @@
+2021-12-10 13:52:17,166 [ INFO] [     MainThread] [          ] [          ] dlg.manager.cmdline#launchServer:71 DALiuGE version 2.0.1 running at /home/jywang02/.dlg/workspace
+2021-12-10 13:52:17,167 [ INFO] [     MainThread] [          ] [          ] dlg.manager.cmdline#launchServer:72 Creating NodeManager
+2021-12-10 13:52:17,175 [ INFO] [ ZeroRPC server] [          ] [          ] dlg.rpc#run_zrpcserver:239 Listening for RPC requests via ZeroRPC on tcp://192.168.6.36:6666
+2021-12-10 13:52:17,178 [ INFO] [        Evt pub] [          ] [          ] dlg.manager.node_manager#_publish_events:435 Publishing events via ZeroMQ on tcp://192.168.6.36:5555
+2021-12-10 13:52:17,189 [ INFO] [     MainThread] [          ] [          ] dlg.restserver#start:46 Starting REST server on 192.168.6.36:8000
+2021-12-10 13:52:17,193 [ INFO] [     MainThread] dlg.manager.cmdline#launchServer:71 DALiuGE version 2.0.1 running at /home/jywang02/.dlg/workspace
+2021-12-10 13:52:17,194 [ INFO] [     MainThread] dlg.manager.cmdline#launchServer:72 Creating DataIslandManager
+2021-12-10 13:52:17,198 [ INFO] [     MainThread] dlg.manager.composite_manager#__init__:532 Created DataIslandManager for hosts: ['192.168.6.36']
+2021-12-10 13:52:17,208 [ INFO] [     MainThread] dlg.restserver#start:46 Starting REST server on 0.0.0.0:8001
+2021-12-10 13:52:17,260 [ INFO] [       Thread-6] dlg.manager.composite_manager#createSession:294 Creating Session 1639144337.257370 in all hosts
+2021-12-10 13:52:17,265 [ INFO] [       Thread-5] [          ] [          ] dlg.manager.node_manager#createSession:229 Created session 1639144337.257370
+2021-12-10 13:52:17,267 [ INFO] [       Thread-6] dlg.manager.composite_manager#createSession:296 Successfully created session 1639144337.257370 in all hosts
+2021-12-10 13:52:17,271 [ INFO] [       Thread-8] dlg.manager.composite_manager#addGraphSpec:340 Separating graph
+2021-12-10 13:52:17,272 [ INFO] [       Thread-8] dlg.manager.composite_manager#addGraphSpec:371 Removed (and sanitized) 0 inter-dm relationships
+2021-12-10 13:52:17,272 [ INFO] [       Thread-8] dlg.manager.composite_manager#addGraphSpec:392 Adding individual graphSpec of session 1639144337.257370 to each DM
+2021-12-10 13:52:17,429 [ INFO] [       Thread-1] dlg.manager.composite_manager#_addGraphSpec:332 Successfully appended graph to session 1639144337.257370 on 192.168.6.36
+2021-12-10 13:52:17,430 [ INFO] [       Thread-8] dlg.manager.composite_manager#addGraphSpec:399 Successfully added individual graphSpec of session 1639144337.257370 to each DM
+2021-12-10 13:52:17,435 [ INFO] [      Thread-10] dlg.manager.composite_manager#deploySession:432 Deploying Session 1639144337.257370 in all hosts
+2021-12-10 13:52:17,438 [ INFO] [      Thread-11] [1639144337] [          ] dlg.manager.session#deploy:290 Creating DROPs for session 1639144337.257370
+2021-12-10 13:52:17,439 [ INFO] [      Thread-11] [1639144337] [          ] dlg.graph_loader#createGraphFromDropSpecList:239 Creating 3 drops
+2021-12-10 13:52:17,441 [ INFO] [      Thread-11] [1639144337] [          ] dlg.graph_loader#createGraphFromDropSpecList:251 Establishing relationships between drops
+2021-12-10 13:52:17,441 [ INFO] [      Thread-11] [1639144337] [          ] dlg.graph_loader#createGraphFromDropSpecList:285 Calculating graph roots
+2021-12-10 13:52:17,441 [ INFO] [      Thread-11] [1639144337] [          ] dlg.graph_loader#createGraphFromDropSpecList:290 1 graph roots found, bye-bye!
+2021-12-10 13:52:17,442 [ INFO] [      Thread-11] [1639144337] [          ] dlg.manager.session#deploy:295 3 drops successfully created
+2021-12-10 13:52:17,442 [ INFO] [      Thread-11] [1639144337] [          ] dlg.manager.session#deploy:312 Stored all drops, proceeding with further customization
+2021-12-10 13:52:17,443 [ INFO] [      Thread-11] [1639144337] [          ] dlg.manager.session#deploy:316 Adding completion listener to leaf drops
+2021-12-10 13:52:17,443 [ INFO] [      Thread-11] [1639144337] [          ] dlg.manager.session#deploy:333 Listener added to leaf drops
+2021-12-10 13:52:17,443 [ INFO] [      Thread-11] [1639144337] [          ] dlg.manager.session#deploy:337 Invoking 'foreach' on each drop
+2021-12-10 13:52:17,444 [ INFO] [      Thread-11] [1639144337] [          ] dlg.manager.session#deploy:340 'foreach' invoked for each drop
+2021-12-10 13:52:17,444 [ INFO] [      Thread-11] [1639144337] [          ] dlg.manager.session#deploy:343 Creating 0 drop proxies: []
+2021-12-10 13:52:17,445 [ INFO] [      Thread-11] [1639144337] [          ] dlg.manager.session#deploy:365 Session 1639144337.257370 is now RUNNING
+2021-12-10 13:52:17,446 [ INFO] [      Thread-10] dlg.manager.composite_manager#deploySession:434 Successfully deployed session 1639144337.257370 in all hosts
+2021-12-10 13:52:17,447 [ INFO] [      Thread-10] dlg.manager.composite_manager#deploySession:445 Moving Drops to COMPLETED right away: ['HelloWorld-2021-12-10T21:52:14+0800_-1_0']
+2021-12-10 13:52:17,451 [ INFO] [       Thread-1] dlg.manager.composite_manager#_triggerDrops:411 Successfully triggered drops for session 1639144337.257370 on 192.168.6.36
+2021-12-10 13:52:17,452 [ INFO] [      Thread-10] dlg.manager.composite_manager#deploySession:454 Successfully triggered drops
+***********************************get data : ['/home/jywang02/multest/graph/data/beam00.ms']
+beamid beam00
+creat/home/jywang02/multest/graph/corrected_data
+args_file    =<class 'str'> file=/home/jywang02/multest/graph/data/beam00.ms
+args_file_out=<class 'str'> file=/home/jywang02/multest/graph/corrected_data/scienceData_SB32039_NGC6744.beam00_averaged_cal.ms
+0/1685646
+100000/1685646
+200000/1685646
+300000/1685646
+400000/1685646
+500000/1685646
+600000/1685646
+700000/1685646
+800000/1685646
+900000/1685646
+1000000/1685646
+1100000/1685646
+1200000/1685646
+1300000/1685646
+1400000/1685646
+1500000/1685646
+1600000/1685646
+fix start
+Making copy of original FIELD table
+Making copy of original FEED table
+Reading phase directions
+Found 1 fields in FIELD table
+Found 1 offsets in FEED table for beam 0
+Offset 0 : t=-500000000000000009942312419328.000000-500000000000000009942312419328.000000 : (-2.475668d,-1.950671d)
+Setting position of beam 0, field 0 to 18:43:17.724845 -66:19:41.77836 (t=5137992574.673278-5138017776.378238, offset=0)
+fix done
+do class done -4:-52:00.000000 -64:30:0.000000
+self.outputs [<FileDROP oid=HelloWorld-2021-12-10T21:52:14+0800_-3_0, uid=HelloWorld-2021-12-10T21:52:14+0800_-3_0>]
+self.outputs length : 94
+o: <FileDROP oid=HelloWorld-2021-12-10T21:52:14+0800_-3_0, uid=HelloWorld-2021-12-10T21:52:14+0800_-3_0>
+2021-12-10 13:59:28,616 [ INFO] [      Thread-15] [1639144337] [HelloWorld] dlg.manager.session#finish:457 Session 1639144337.257370 finished
+2021-12-10 13:59:38,431 [ INFO] [      Thread-45] dlg.restserver#stop:53 Stopping REST server
+2021-12-10 13:59:38,439 [ INFO] [     MainThread] dlg.manager.cmdline#handle_signal:89 Exiting from DataIslandManager
+2021-12-10 13:59:38,440 [ INFO] [      Thread-46] dlg.restserver#stop:53 Stopping REST server
+2021-12-10 13:59:38,442 [ INFO] [ ZeroRPC server] [          ] [          ] dlg.rpc#stop_zrpcserver:250 Closing ZeroRPC server on tcp://192.168.6.36:6666
+2021-12-10 13:59:38,444 [ INFO] [ ZeroRPC server] [          ] [          ] dlg.rpc#run_zrpcserver:245 ZeroRPC server finished
+2021-12-10 13:59:38,453 [ INFO] [      Thread-97] [          ] [          ] dlg.manager.node_manager#shutdown:409 ZeroMQ event publisher/subscriber finished
+2021-12-10 13:59:38,455 [ INFO] [      Thread-97] [          ] [          ] dlg.restserver#stop:53 Stopping REST server
+2021-12-10 13:59:38,930 [ INFO] [      Thread-46] dlg.manager.rest#_stop_manager:186 Thanks for using our DataIslandManager, come back again :-)
+2021-12-10 13:59:38,930 [ INFO] [      Thread-45] dlg.manager.rest#_stop_manager:186 Thanks for using our DataIslandManager, come back again :-)
+2021-12-10 13:59:38,939 [ INFO] [      Thread-97] [          ] [          ] dlg.manager.rest#_stop_manager:186 Thanks for using our NodeManager, come back again :-)

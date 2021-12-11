@@ -1,0 +1,2 @@
+make1是没有调用casa 执行pre_makemodel.py没问题，make3是调用了但是出现了
+ImportError: /home/jywang02/casa-6.4.0-16/lib/py/lib/python3.8/site-packages/mpi4py/MPI.cpython-38-x86_64-linux-gnu.so: undefined symbol: MPI_UNWEIGHTED

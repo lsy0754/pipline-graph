@@ -1,0 +1,429 @@
+{
+    "linkDataArray": [
+        {
+            "from": -1,
+            "fromPort": "9de0cf00-1924-4192-a7bd-41caea7aa98f",
+            "loop_aware": "0",
+            "to": -2,
+            "toPort": "998aefce-83d6-4fa6-97cb-f52a2d3cdbcf"
+        },
+        {
+            "from": -2,
+            "fromPort": "edd1688e-d1a8-4dce-92c1-234efbaf1b49",
+            "loop_aware": "0",
+            "to": -3,
+            "toPort": "e61c0a23-9486-4fdf-9a35-9490ff1078fc"
+        },
+        {
+            "from": -2,
+            "fromPort": "85780a78-d7d2-4608-9a2a-b19771cd1e10",
+            "loop_aware": "0",
+            "to": -4,
+            "toPort": "3a0d4207-4f43-4c97-af46-88a1bbbfc329"
+        }
+    ],
+    "modelData": {
+        "eagleCommitHash": "Unknown",
+        "eagleVersion": "Unknown",
+        "filePath": "fix61.graph",
+        "fileType": "Graph",
+        "git_url": "",
+        "readonly": true,
+        "repo": "",
+        "repoBranch": "",
+        "repoService": "Unknown",
+        "schemaVersion": "OJS",
+        "sha": ""
+    },
+    "nodeDataArray": [
+        {
+            "canHaveInputs": true,
+            "canHaveOutputs": true,
+            "category": "File",
+            "collapsed": false,
+            "color": "#394BB2",
+            "description": "A standard file on a filesystem mounted to the deployment machine",
+            "drawOrderHint": 0,
+            "exitAppFields": [],
+            "exitApplicationKey": null,
+            "exitApplicationName": "",
+            "exitApplicationType": "None",
+            "expanded": false,
+            "fields": [
+                {
+                    "description": "Estimated size of the data contained in this node",
+                    "name": "data_volume",
+                    "readonly": false,
+                    "text": "Data volume",
+                    "type": "Float",
+                    "value": 5
+                },
+                {
+                    "description": "Is this node the end of a group?",
+                    "name": "group_end",
+                    "readonly": false,
+                    "text": "Group end",
+                    "type": "Boolean",
+                    "value": false
+                },
+                {
+                    "description": "Perform a check to make sure the file path exists before proceeding with the application",
+                    "name": "check_filepath_exists",
+                    "readonly": false,
+                    "text": "Check file path exists",
+                    "type": "Boolean",
+                    "value": true
+                },
+                {
+                    "description": "Path to the file for this node",
+                    "name": "filepath",
+                    "readonly": false,
+                    "text": "File path",
+                    "type": "String",
+                    "value": "/home/jywang02/multest/graph/readmake.csv"
+                },
+                {
+                    "description": "Name of the directory containing the file for this node",
+                    "name": "dirname",
+                    "readonly": false,
+                    "text": "Directory name",
+                    "type": "String",
+                    "value": ""
+                }
+            ],
+            "flipPorts": false,
+            "git_url": "",
+            "height": 72,
+            "inputAppFields": [],
+            "inputApplicationKey": null,
+            "inputApplicationName": "",
+            "inputApplicationType": "None",
+            "inputLocalPorts": [],
+            "inputPorts": [],
+            "isData": true,
+            "isGroup": false,
+            "key": -1,
+            "outputAppFields": [],
+            "outputApplicationKey": null,
+            "outputApplicationName": "",
+            "outputApplicationType": "None",
+            "outputLocalPorts": [],
+            "outputPorts": [
+                {
+                    "Id": "9de0cf00-1924-4192-a7bd-41caea7aa98f",
+                    "IdText": "Directions3",
+                    "description": "A CSV file 3 The port carrying the message produced by the app.",
+                    "event": false,
+                    "text": "A CSV file 3 The port carrying the message produced by the app.",
+                    "type": "String"
+                }
+            ],
+            "precious": false,
+            "readonly": false,
+            "sha": "",
+            "showPorts": true,
+            "streaming": false,
+            "subject": null,
+            "text": "File",
+            "width": 200,
+            "x": 185.4444444444443,
+            "y": 64.6541697184245
+        },
+        {
+            "canHaveInputs": true,
+            "canHaveOutputs": true,
+            "category": "File",
+            "collapsed": false,
+            "color": "#394BB2",
+            "description": "A standard file on a filesystem mounted to the deployment machine",
+            "drawOrderHint": 0,
+            "exitAppFields": [],
+            "exitApplicationKey": null,
+            "exitApplicationName": "",
+            "exitApplicationType": "None",
+            "expanded": false,
+            "fields": [
+                {
+                    "description": "Estimated size of the data contained in this node",
+                    "name": "data_volume",
+                    "readonly": false,
+                    "text": "Data volume",
+                    "type": "Float",
+                    "value": 5
+                },
+                {
+                    "description": "Is this node the end of a group?",
+                    "name": "group_end",
+                    "readonly": false,
+                    "text": "Group end",
+                    "type": "Boolean",
+                    "value": false
+                },
+                {
+                    "description": "Perform a check to make sure the file path exists before proceeding with the application",
+                    "name": "check_filepath_exists",
+                    "readonly": false,
+                    "text": "Check file path exists",
+                    "type": "Boolean",
+                    "value": false
+                },
+                {
+                    "description": "Path to the file for this node",
+                    "name": "filepath",
+                    "readonly": false,
+                    "text": "File path",
+                    "type": "String",
+                    "value": "/home/jywang02/multest/graph/out1.txt"
+                },
+                {
+                    "description": "Name of the directory containing the file for this node",
+                    "name": "dirname",
+                    "readonly": false,
+                    "text": "Directory name",
+                    "type": "String",
+                    "value": ""
+                }
+            ],
+            "flipPorts": false,
+            "git_url": "",
+            "height": 72,
+            "inputAppFields": [],
+            "inputApplicationKey": null,
+            "inputApplicationName": "",
+            "inputApplicationType": "None",
+            "inputLocalPorts": [],
+            "inputPorts": [
+                {
+                    "Id": "e61c0a23-9486-4fdf-9a35-9490ff1078fc",
+                    "IdText": "Directions3",
+                    "description": "A CSV file 3 The port carrying the message produced by the app.",
+                    "event": false,
+                    "text": "A CSV file 3 The port carrying the message produced by the app.",
+                    "type": "String"
+                }
+            ],
+            "isData": true,
+            "isGroup": false,
+            "key": -3,
+            "outputAppFields": [],
+            "outputApplicationKey": null,
+            "outputApplicationName": "",
+            "outputApplicationType": "None",
+            "outputLocalPorts": [],
+            "outputPorts": [],
+            "precious": false,
+            "readonly": false,
+            "sha": "",
+            "showPorts": true,
+            "streaming": false,
+            "subject": null,
+            "text": "File",
+            "width": 200,
+            "x": 748.7777777777778,
+            "y": 120.4333360460069
+        },
+        {
+            "canHaveInputs": true,
+            "canHaveOutputs": true,
+            "category": "File",
+            "collapsed": false,
+            "color": "#394BB2",
+            "description": "A standard file on a filesystem mounted to the deployment machine",
+            "drawOrderHint": 0,
+            "exitAppFields": [],
+            "exitApplicationKey": null,
+            "exitApplicationName": "",
+            "exitApplicationType": "None",
+            "expanded": false,
+            "fields": [
+                {
+                    "description": "Estimated size of the data contained in this node",
+                    "name": "data_volume",
+                    "readonly": false,
+                    "text": "Data volume",
+                    "type": "Float",
+                    "value": 5
+                },
+                {
+                    "description": "Is this node the end of a group?",
+                    "name": "group_end",
+                    "readonly": false,
+                    "text": "Group end",
+                    "type": "Boolean",
+                    "value": false
+                },
+                {
+                    "description": "Perform a check to make sure the file path exists before proceeding with the application",
+                    "name": "check_filepath_exists",
+                    "readonly": false,
+                    "text": "Check file path exists",
+                    "type": "Boolean",
+                    "value": false
+                },
+                {
+                    "description": "Path to the file for this node",
+                    "name": "filepath",
+                    "readonly": false,
+                    "text": "File path",
+                    "type": "String",
+                    "value": "/home/jywang02/multest/graph/out2.txt"
+                },
+                {
+                    "description": "Name of the directory containing the file for this node",
+                    "name": "dirname",
+                    "readonly": false,
+                    "text": "Directory name",
+                    "type": "String",
+                    "value": ""
+                }
+            ],
+            "flipPorts": false,
+            "git_url": "",
+            "height": 72,
+            "inputAppFields": [],
+            "inputApplicationKey": null,
+            "inputApplicationName": "",
+            "inputApplicationType": "None",
+            "inputLocalPorts": [],
+            "inputPorts": [
+                {
+                    "Id": "3a0d4207-4f43-4c97-af46-88a1bbbfc329",
+                    "IdText": "Directions3",
+                    "description": "A CSV file 3 The port carrying the message produced by the app.",
+                    "event": false,
+                    "text": "A CSV file 3 The port carrying the message produced by the app.",
+                    "type": "String"
+                }
+            ],
+            "isData": true,
+            "isGroup": false,
+            "key": -4,
+            "outputAppFields": [],
+            "outputApplicationKey": null,
+            "outputApplicationName": "",
+            "outputApplicationType": "None",
+            "outputLocalPorts": [],
+            "outputPorts": [],
+            "precious": false,
+            "readonly": false,
+            "sha": "",
+            "showPorts": true,
+            "streaming": false,
+            "subject": null,
+            "text": "File",
+            "width": 200,
+            "x": 800.1111111111111,
+            "y": 315.33775593397354
+        },
+        {
+            "canHaveInputs": true,
+            "canHaveOutputs": true,
+            "category": "PythonApp",
+            "collapsed": false,
+            "color": "#3498DB",
+            "description": "A simple APP that implements the standard Hello World in DALiuGE. It allows to change 'World' with some other string and it also permits to connect the single output port to multiple sinks, which will all receive the same message. App does not require any input.",
+            "drawOrderHint": 0,
+            "exitAppFields": [],
+            "exitApplicationKey": null,
+            "exitApplicationName": "",
+            "exitApplicationType": "None",
+            "expanded": false,
+            "fields": [
+                {
+                    "description": "path for data",
+                    "name": "path1",
+                    "readonly": false,
+                    "text": "Path1",
+                    "type": "String",
+                    "value": "abc"
+                },
+                {
+                    "description": "Application class",
+                    "name": "appclass",
+                    "readonly": true,
+                    "text": "Application Class",
+                    "type": "String",
+                    "value": "dlg.apps.makemodel3.H3App"
+                },
+                {
+                    "description": "Estimated execution time",
+                    "name": "execution_time",
+                    "readonly": false,
+                    "text": "Execution time",
+                    "type": "Float",
+                    "value": 5
+                },
+                {
+                    "description": "Number of cores used",
+                    "name": "num_cpus",
+                    "readonly": false,
+                    "text": "Num CPUs",
+                    "type": "Integer",
+                    "value": 1
+                },
+                {
+                    "description": "Component is start of a group",
+                    "name": "group_start",
+                    "readonly": false,
+                    "text": "Group start",
+                    "type": "Boolean",
+                    "value": false
+                }
+            ],
+            "flipPorts": false,
+            "git_url": "https://github.com.cnpmjs.org/ICRAR/daliuge.git",
+            "height": 72,
+            "inputAppFields": [],
+            "inputApplicationKey": null,
+            "inputApplicationName": "",
+            "inputApplicationType": "None",
+            "inputLocalPorts": [],
+            "inputPorts": [
+                {
+                    "Id": "998aefce-83d6-4fa6-97cb-f52a2d3cdbcf",
+                    "IdText": "Directions3",
+                    "description": "A CSV file 3 The port carrying the message produced by the app.",
+                    "event": false,
+                    "text": "A CSV file 3 The port carrying the message produced by the app.",
+                    "type": "String"
+                }
+            ],
+            "isData": false,
+            "isGroup": false,
+            "key": -2,
+            "outputAppFields": [],
+            "outputApplicationKey": null,
+            "outputApplicationName": "",
+            "outputApplicationType": "None",
+            "outputLocalPorts": [],
+            "outputPorts": [
+                {
+                    "Id": "edd1688e-d1a8-4dce-92c1-234efbaf1b49",
+                    "IdText": "Directions3",
+                    "description": "A CSV file 3 The port carrying the message produced by the app.",
+                    "event": false,
+                    "text": "A CSV file 3 The port carrying the message produced by the app.",
+                    "type": "String"
+                },
+                {
+                    "Id": "85780a78-d7d2-4608-9a2a-b19771cd1e10",
+                    "IdText": "Directions3",
+                    "description": "A CSV file 3 The port carrying the message produced by the app.",
+                    "event": false,
+                    "text": "A CSV file 3 The port carrying the message produced by the app.",
+                    "type": "String"
+                }
+            ],
+            "precious": false,
+            "readonly": false,
+            "sha": "2968e2ba",
+            "showPorts": false,
+            "streaming": false,
+            "subject": null,
+            "text": "H3App",
+            "width": 200,
+            "x": 475.1111111111111,
+            "y": 211.33775593397354
+        }
+    ]
+}

@@ -1,0 +1,108 @@
+{
+    "modelData": {
+        "fileType": "palette",
+        "repoService": "GitHub",
+        "repoBranch": "master",
+        "repo": "ICRAR/EAGLE_test_repo",
+        "readonly": true,
+        "filePath": "/home/jywang02/multest/graph/makemodel1.palette",
+        "sha": "2968e2ba",
+        "git_url": "https://github.com.cnpmjs.org/ICRAR/daliuge.git"
+    },
+    "nodeDataArray": [
+        {
+            "category": "PythonApp",
+            "categoryType": "Application",
+            "isData": false,
+            "isGroup": false,
+            "canHaveInputs": true,
+            "canHaveOutputs": true,
+            "drawOrderHint": 0,
+            "key": -1,
+            "text": "H3App",
+            "description": "A simple APP that implements the standard Hello World in DALiuGE. It allows to change 'World' with some other string and it also permits to connect the single output port to multiple sinks, which will all receive the same message. App does not require any input.",
+            "collapsed": false,
+            "showPorts": false,
+            "streaming": false,
+            "subject": null,
+            "selected": false,
+            "expanded": false,
+            "inputApplicationName": "",
+            "outputApplicationName": "",
+            "exitApplicationName": "",
+            "inputApplicationType": "None",
+            "outputApplicationType": "None",
+            "exitApplicationType": "None",
+            "inputPorts": [
+                {
+                    "Id": "bfb6796f-9b52-4f1f-b86c-fbc332f4d1ea",
+                    "IdText": "Directions3",
+                    "text": "A CSV file 3 The port carrying the message produced by the app.",
+                    "event": false,
+                    "type": "String",
+                    "description": "A CSV file 3 The port carrying the message produced by the app."
+                }
+            ],
+            "outputPorts": [],
+            "inputLocalPorts": [],
+            "outputLocalPorts": [],
+            "inputAppFields": [],
+            "outputAppFields": [],
+            "fields": [
+                {
+                    "text": "Path1",
+                    "name": "path1",
+                    "value": "abc",
+                    "default": "abc",
+                    "description": "path for data",
+                    "readonly": false,
+                    "type": "String",
+                    "precious": false
+                },
+                {
+                    "text": "Application Class",
+                    "name": "appclass",
+                    "value": "dlg.apps.makemodel1.H3App",
+                    "default": "dlg.apps.makemodel1.H3App",
+                    "description": "Application class",
+                    "readonly": true,
+                    "type": "String",
+                    "precious": false
+                },
+                {
+                    "text": "Execution time",
+                    "name": "execution_time",
+                    "value": 5,
+                    "default": 5,
+                    "description": "Estimated execution time",
+                    "readonly": false,
+                    "type": "Float",
+                    "precious": false
+                },
+                {
+                    "text": "Num CPUs",
+                    "name": "num_cpus",
+                    "value": 1,
+                    "default": 1,
+                    "description": "Number of cores used",
+                    "readonly": false,
+                    "type": "Integer",
+                    "precious": false
+                },
+                {
+                    "text": "Group start",
+                    "name": "group_start",
+                    "value": "false",
+                    "default": "false",
+                    "description": "Component is start of a group",
+                    "readonly": false,
+                    "type": "Boolean",
+                    "precious": false
+                }
+            ],
+            "git_url": "https://github.com.cnpmjs.org/ICRAR/daliuge.git",
+            "sha": "2968e2ba"
+        }
+    ],
+    "linkDataArray": []
+}
